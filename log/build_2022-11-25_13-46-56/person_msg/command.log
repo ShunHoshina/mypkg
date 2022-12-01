@@ -1,0 +1,2 @@
+Invoking command in '/home/uchida/ros2_ws/src/build/person_msg': CMAKE_PREFIX_PATH=/home/uchida/ros2_ws/install/mypkg:/opt/ros/dashing /usr/bin/cmake /home/uchida/ros2_ws/src/person_msg -DCMAKE_INSTALL_PREFIX=/home/uchida/ros2_ws/src/install/person_msg
+Invoked command in '/home/uchida/ros2_ws/src/build/person_msg' returned '1': CMAKE_PREFIX_PATH=/home/uchida/ros2_ws/install/mypkg:/opt/ros/dashing /usr/bin/cmake /home/uchida/ros2_ws/src/person_msg -DCMAKE_INSTALL_PREFIX=/home/uchida/ros2_ws/src/install/person_msg

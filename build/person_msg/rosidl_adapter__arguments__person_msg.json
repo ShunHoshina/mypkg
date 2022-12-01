@@ -1,0 +1,6 @@
+{
+  "package_name": "person_msg",
+  "non_idl_tuples": [
+    "/home/uchida/ros2_ws/src/person_msg:msg/person.msg"
+  ]
+}

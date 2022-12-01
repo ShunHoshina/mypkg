@@ -1,0 +1,65 @@
+[0.525s] Invoking command in '/home/uchida/ros2_ws/src/build/person_msg': CMAKE_PREFIX_PATH=/home/uchida/ros2_ws/install/mypkg:/opt/ros/dashing /usr/bin/cmake /home/uchida/ros2_ws/src/person_msg -DCMAKE_INSTALL_PREFIX=/home/uchida/ros2_ws/src/install/person_msg
+[0.920s] -- The C compiler identification is GNU 7.5.0
+[1.322s] -- The CXX compiler identification is GNU 7.5.0
+[1.439s] -- Check for working C compiler: /usr/bin/cc
+[1.920s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.928s] -- Detecting C compiler ABI info
+[2.484s] -- Detecting C compiler ABI info - done
+[2.506s] -- Detecting C compile features
+[4.186s] -- Detecting C compile features - done
+[4.201s] -- Check for working CXX compiler: /usr/bin/c++
+[4.789s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[4.790s] -- Detecting CXX compiler ABI info
+[5.391s] -- Detecting CXX compiler ABI info - done
+[5.398s] -- Detecting CXX compile features
+[7.963s] -- Detecting CXX compile features - done
+[7.987s] -- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)
+[8.129s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[8.129s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[8.974s] -- Found rosidl_default_generators: 0.7.0 (/opt/ros/dashing/share/rosidl_default_generators/cmake)
+[14.370s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1") 
+[19.246s] -- Found FastRTPS: /opt/ros/dashing/include  
+[19.289s] -- Found rosidl_adapter: 0.7.10 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[22.032s] -- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") 
+[22.343s] CMake Error at /opt/ros/dashing/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):
+[22.344s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[22.344s]   person_msg --arguments-file
+[22.344s]   /home/uchida/ros2_ws/src/build/person_msg/rosidl_adapter__arguments__person_msg.json
+[22.344s]   --output-dir
+[22.344s]   /home/uchida/ros2_ws/src/build/person_msg/rosidl_adapter/person_msg
+[22.344s]   --output-file
+[22.344s]   /home/uchida/ros2_ws/src/build/person_msg/rosidl_adapter/person_msg.idls)
+[22.344s]   returned error code 1:
+[22.345s] 
+[22.345s]   Error processing ' string name' of 'person_msg/Person': 'string index out
+[22.345s]   of range'
+[22.345s] 
+[22.345s]   Traceback (most recent call last):
+[22.345s] 
+[22.345s]     File "/usr/lib/python3.6/runpy.py", line 193, in _run_module_as_main
+[22.345s]       "__main__", mod_spec)
+[22.346s]     File "/usr/lib/python3.6/runpy.py", line 85, in _run_code
+[22.346s]       exec(code, run_globals)
+[22.346s]     File "/opt/ros/dashing/lib/python3.6/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[22.346s]       sys.exit(main())
+[22.346s]     File "/opt/ros/dashing/lib/python3.6/site-packages/rosidl_adapter/main.py", line 55, in main
+[22.346s]       pathlib.Path(relative_path), output_dir)
+[22.346s]     File "/opt/ros/dashing/lib/python3.6/site-packages/rosidl_adapter/__init__.py", line 20, in convert_to_idl
+[22.346s]       package_dir, package_name, interface_file, output_dir / 'msg')
+[22.347s]     File "/opt/ros/dashing/lib/python3.6/site-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl
+[22.347s]       msg = parse_message_string(package_name, input_file.stem, content)
+[22.347s]     File "/opt/ros/dashing/lib/python3.6/site-packages/rosidl_adapter/parser.py", line 504, in parse_message_string
+[22.347s]       Type(type_string, context_package_name=pkg_name),
+[22.347s]     File "/opt/ros/dashing/lib/python3.6/site-packages/rosidl_adapter/parser.py", line 235, in __init__
+[22.347s]       self.is_array = type_string[-1] == ']'
+[22.347s] 
+[22.347s]   IndexError: string index out of range
+[22.348s] 
+[22.348s] Call Stack (most recent call first):
+[22.348s]   /opt/ros/dashing/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[22.348s]   CMakeLists.txt:21 (rosidl_generate_interfaces)
+[22.348s] 
+[22.348s] 
+[22.348s] -- Configuring incomplete, errors occurred!
+[22.348s] See also "/home/uchida/ros2_ws/src/build/person_msg/CMakeFiles/CMakeOutput.log".
+[22.352s] Invoked command in '/home/uchida/ros2_ws/src/build/person_msg' returned '1': CMAKE_PREFIX_PATH=/home/uchida/ros2_ws/install/mypkg:/opt/ros/dashing /usr/bin/cmake /home/uchida/ros2_ws/src/person_msg -DCMAKE_INSTALL_PREFIX=/home/uchida/ros2_ws/src/install/person_msg

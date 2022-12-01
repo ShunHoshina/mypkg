@@ -1,0 +1,22 @@
+[0.938s] Invoking command in '/home/uchida/ros2_ws/src/ROS2/mypkg': PYTHONPATH=/home/uchida/ros2_ws/src/install/mypkg/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mypkg build --build-base /home/uchida/ros2_ws/src/build/mypkg/build install --prefix /home/uchida/ros2_ws/src/install/mypkg --record /home/uchida/ros2_ws/src/build/mypkg/install.log --single-version-externally-managed
+[1.199s] running egg_info
+[1.200s] writing ../../build/mypkg/mypkg.egg-info/PKG-INFO
+[1.200s] writing dependency_links to ../../build/mypkg/mypkg.egg-info/dependency_links.txt
+[1.201s] writing entry points to ../../build/mypkg/mypkg.egg-info/entry_points.txt
+[1.201s] writing requirements to ../../build/mypkg/mypkg.egg-info/requires.txt
+[1.201s] writing top-level names to ../../build/mypkg/mypkg.egg-info/top_level.txt
+[1.251s] reading manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[1.253s] writing manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[1.253s] running build
+[1.254s] running build_py
+[1.254s] running install
+[1.254s] running install_lib
+[1.256s] running install_data
+[1.256s] running install_egg_info
+[1.259s] removing '/home/uchida/ros2_ws/src/install/mypkg/lib/python3.6/site-packages/mypkg-0.0.0-py3.6.egg-info' (and everything under it)
+[1.259s] Copying ../../build/mypkg/mypkg.egg-info to /home/uchida/ros2_ws/src/install/mypkg/lib/python3.6/site-packages/mypkg-0.0.0-py3.6.egg-info
+[1.260s] running install_scripts
+[1.287s] Installing listener script to /home/uchida/ros2_ws/src/install/mypkg/lib/mypkg
+[1.287s] Installing talker script to /home/uchida/ros2_ws/src/install/mypkg/lib/mypkg
+[1.287s] writing list of installed files to '/home/uchida/ros2_ws/src/build/mypkg/install.log'
+[1.321s] Invoked command in '/home/uchida/ros2_ws/src/ROS2/mypkg' returned '0': PYTHONPATH=/home/uchida/ros2_ws/src/install/mypkg/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mypkg build --build-base /home/uchida/ros2_ws/src/build/mypkg/build install --prefix /home/uchida/ros2_ws/src/install/mypkg --record /home/uchida/ros2_ws/src/build/mypkg/install.log --single-version-externally-managed
